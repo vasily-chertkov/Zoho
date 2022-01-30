@@ -703,7 +703,7 @@ type Plan struct {
 	Discount        float64 `json:"discount,omitempty"`
 	Total           float64 `json:"total,omitempty"`
 	SetupFee        float64 `json:"setup_fee,omitempty"`
-	PlanDescription string  `json:"plan_description,omitempty"`
+	PlanDescription string  `json:"description,omitempty"`
 	TaxID           string  `json:"tax_id,omitempty"`
 	TrialDays       int64   `json:"trial_days,omitempty"`
 }
